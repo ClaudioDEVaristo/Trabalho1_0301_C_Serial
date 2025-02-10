@@ -40,4 +40,4 @@ Este projeto tem como objetivo a interação com componentes eletrônicos conect
 4. Pressione os botões **A** e **B** para testar a interação com os LEDs.
 
 ## Link para o vídeo no YouTube
-
+https://youtu.be/oFVv2snpf8A
