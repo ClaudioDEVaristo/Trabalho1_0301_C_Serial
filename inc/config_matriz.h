@@ -47,38 +47,39 @@ void define_numero(char numero, PIO pio, uint sm){
         switch (numero)
     {
     case '0':
-        desenho(desenho0, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho0, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 0
         break;
     case '1':
-        desenho(desenho1, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho1, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 1
         break;
     case '2':
-        desenho(desenho2, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho2, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 2
         break;
     case '3':
-        desenho(desenho3, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho3, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 3
         break;
     case '4':
-        desenho(desenho4, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho4, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 4
         break;
     case '5':
-        desenho(desenho5, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho5, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 5
         break;
     case '6':
-        desenho(desenho6, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho6, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 6
         break;
     case '7':
-        desenho(desenho7, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho7, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 7
         break;
     case '8':
-        desenho(desenho8, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho8, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 8
         break;
     case '9':
-        desenho(desenho9, valorLed, pio, sm, 0.0, 0.0, 0.1);
+        desenho(desenho9, valorLed, pio, sm, 0.0, 0.0, 0.1); // desenho do número 9
         break;
     }
 };
 
+//Configuração do PIO
 PIO pio_config()
 {
   int sm = 0;
