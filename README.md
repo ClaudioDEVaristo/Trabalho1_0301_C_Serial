@@ -15,7 +15,7 @@ Este projeto tem como objetivo a interação com componentes eletrônicos conect
 - Adicionar caracteres minúsculos à biblioteca `font.h`.
 - Criar novos caracteres de forma criativa.
 
-### 2. Entrada de Caracteres via PC
+### 2. Entrada de Caracteres via UART
 - Utilização do **Serial Monitor** do VS Code para digitar caracteres.
 - Exibição dos caracteres digitados no **display SSD1306**.
 - **Observação:** Apenas um caractere será enviado de cada vez.
